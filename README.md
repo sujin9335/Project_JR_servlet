@@ -30,7 +30,7 @@
 > ![sun1](./images/sun.png)
 
 ## 2. eXERD
-> ![erd](./images/erd.png)
+> ![erd](./images/erd1.png)
 
 # 5. 기능 구현
 ## 1. 초기 화면
@@ -52,14 +52,14 @@
 > - 학원 조회<br>
 > ![aca](./images/aca1.png)
 > - 직업 조회<br>
-> ![job1](./images/job1.png)
-> ![job2](./images/job2.png)
+> ![job1](./images/job11.png)
+> ![job2](./images/job22.png)
 > - 자유 게시판 <br>
 > ![board1](./images/board1.png)
 > ![board2](./images/board2.png)
 > - My페이지 스터디 <br>
-> ![study1](./images/study1.png)
-> ![study2](./images/study2.png)
+> ![study1](./images/study11.png)
+> ![study2](./images/study22.png)
 
 # 6. 기능 분석
 > <strong>MVC Model</strong><br>
