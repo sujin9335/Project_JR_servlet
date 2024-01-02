@@ -44,50 +44,64 @@
 > - 자격증 조회<br>
 > ![ja1](./images/ja1.png)
 > ![ja2](./images/ja2.png)
-> - 관리자-신규 과목 등록<br>
-> ![gm1](./images/gm1.png)
-> ![gm2](./images/gm2.png)
-> - 관리자-면접-추가<br>
-> ![mg1](./images/mg1.png)
-> - 관리자-면접-수정<br>
-> ![mg2](./images/mg2.png)
-> - 관리자-면접-삭제<br>
-> ![mg3](./images/mg3.png)
-> - 교사-강의스케줄 조회 <br>
-> ![gs1](./images/gs1.png)
-> ![gs2](./images/gs2.png)
-> - 교육생-성적조회 <br>
-> ![sg1](./images/sg1.png)
-> ![sg2](./images/sg2.png)
+> - 자격증 추천<br>
+> ![ja3](./images/ja3.png)
+> - 교재 조회<br>
+> ![book1](./images/book1.png)
+> ![book2](./images/book2.png)
+> - 학원 조회<br>
+> ![aca](./images/aca1.png)
+> - 직업 조회<br>
+> ![job1](./images/job1.png)
+> ![job2](./images/job2.png)
+> - 자유 게시판 <br>
+> ![board1](./images/board1.png)
+> ![board2](./images/board2.png)
+> - My페이지 스터디 <br>
+> ![study1](./images/study1.png)
+> ![study2](./images/study2.png)
 
+# 6. 기능 분석
+> <strong>MVC Model</strong><br>
+>> - Model, View, Controller 세가지 구성 요소로 나누어 개발하는 방법
+>> ![mvc](./images/mvc.png)
 
-# 6. 📜세부 일정
-> <strong>9월 8일 ~ 9월 12일</strong><br>
+> <strong>Ajax</strong><br>
+>> - 웹 페이지에서 비동기적으로 서버와 통신하는 기술
+>> ![ajax](./images/ajax.png)
+
+> <strong>Autocomplete</strong><br>
+>> - 사용자가 입력한 내용에 따라 자동 완성 기능을 제공하는 기능
+>> ![auto](./images/auto.png)
+
+# 7. 📜세부 일정
+> <strong>11월 13일 ~ 11월 20일</strong><br>
 >> - 요구 분석
 >> - 순서도
+>> - 화면 설계도
 >> - ERD<br>
 
-> <strong>9월 11일 ~ 9월 14일</strong><br>
->> - 테이블 정의서 작성(DDL)
+> <strong>11월 21일 ~ 11월 23일</strong><br>
 >> - 더미 데이터 
->> - 데이터 정의서 작성<br>
+>> - 테이블 정의서 작성(DDL)
+>> - 데이터 정의서 작성(DML)<br>
 
-> <strong>9월 14일 ~ 9월 17일</strong><br>
->> - PL/SQL, ANSI/SQL 작성
+> <strong>11월 24일 ~ 11월 30일</strong><br>
+>> - 개발진행
 >> - 데이터 통합 및 디버깅
 >> - PPT 작성<br>
 
-> <strong>9월 18일</strong><br>
+> <strong>12월 1일</strong><br>
 >> - 발표 <br>
   
   # 핵심 트러블 슈팅
 <details>
-<summary> <strong>1. 더미 데이터 작성과 유효성 검사가 오래 걸렸다.</strong> </summary>
-  - 출결 더미 데이터가 약 7만개 였고 그 데이터들을 insert문으로 바꾸는데 시간이 오래 걸렸다.<br>하지만 자바 파일 입출력으로 한번 코드를 짜 놓아 시간이 그나마 단축 되었다.<br><br>
+<summary> <strong>1. BootStrap 사용법이 익숙치 않았다</strong> </summary>
+  - 부트스트랩으로 짜여있는 템플릿을 사용했는데 익숙하지 않아 사용하고 가공 하는데 어려움이 있었다.<br>클래스명칭으로 css처리를 할 수 있고 다양한 템플릿을 제공하여 쉽고 빠르게 view를 만들 수 있었다.<br><br>
 </details>
 <details>
-<summary> <strong>2. 익숙치 않은 PL/SQL에서 시간이 오래 걸렸다.</strong> </summary>
-  - PL/SQL이 자바와 비교하자면 변수,메소드,조건문등을 구현할 수 있는 코드 인데 사용법이 익숙치 않아 CRUD만 하는데도 오래 걸렸다<br><br>
+<summary> <strong>2. git 사용의 어려움이 있었다.</strong> </summary>
+  - 개인 브랜치 생성 후 main에 merge하는 방식으로 진행 했는데 servlet Controller의 명칭이 겹치는 부분이있어 일일이 확인 후 merge를 진행 했다.<br><br>
 </details>
 
 # 그 외 이슈
